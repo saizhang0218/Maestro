@@ -1,0 +1,14 @@
+This is the verilog implementation for bit_serial a systolic array with column combining, which is used in the following paper: 
+The inputs in j_systolic_array.v is described as follows:
+1. clk: the clock input.
+2. reset: the reset signal.
+3. accumulation_in: the accumulated input of the systolic array.
+4. clr_and_plus_one: The clear signal and control signal of the systolic array. 
+5. mac_en: the enable signal of the systolic array.
+6. dataflow_in: the bit_serial input of the systolic array.
+7. zero_dataflow_in: the input signal which indicates the zero inside dataflow_in.
+8. zero_sel_in, dataflow_select: the selection signal for inputs.
+9. update_w: update_w = 1 when loading the weight to the systolic array.
+10. control1: control1 = 0 if the weight is negative, control1 = 1 otherwise.
+11. result: the output of the systolic array.
+12. result_en, result_start,result_end: the enable signal, start and end of the systolic output.
