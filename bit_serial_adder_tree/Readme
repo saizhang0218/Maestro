@@ -1,9 +1,11 @@
-This includes a verilog implementation of a bit-serial adder tree, which takes the input from the outputs of eight 8 by 8 systolic arrays, and compute the
-summation over all the corresponding systolic outputs. 
+This folder includes a verilog implementation of the bit-serial adder tree, which takes the outputs of eight 8 by 8 systolic arrays, and compute the
+summation over the corresponding systolic outputs. 
 
-The inputs in top.v is illustrated as follows:
+The inputs of top.v is described as follows:
 1. clk: the clock input.
 2. reset: the reset signal.
 3. control: select the systolic output for summation.
 4. output_sa0,output_sa1,output_sa2,output_sa3,output_sa4,output_sa5,output_sa6,output_sa7: systolic array outputs.
 5. result: the summations.
+
+More functions needs to be added later.
