@@ -1,4 +1,7 @@
 This is the verilog implementation for bit_serial a systolic array with column combining, which is used in the following paper: 
+
+Kung, H. T., Bradley McDanel, and Sai Qian Zhang. "Packing sparse convolutional neural networks for efficient systolic array implementations: Column combining under joint optimization." Proceedings of the Twenty-Fourth International Conference on Architectural Support for Programming Languages and Operating Systems. ACM, 2019.
+
 The inputs in j_systolic_array.v is described as follows:
 1. clk: the clock input.
 2. reset: the reset signal.
